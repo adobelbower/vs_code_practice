@@ -1,6 +1,5 @@
-name = input("What is your name? ")
-print("hello", name)
-# what the fuck
-x = 75 + 10
-print(x)
-print("awwwwww YEAH")
+import pandas as pd 
+
+df = pd.read_excel (r'C:\Users\adamd\Desktop\Work Project\file_example_XLS_10.xls')
+
+print(df)
